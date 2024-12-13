@@ -1,0 +1,12 @@
+body {
+  width: 100%;
+  padding: 0;
+}
+
+h2 {
+  padding: 100px 0 40px;
+  font-size: 30px;
+  color: rgb(40, 19, 60);
+  font-weight: bolder;
+  line-height: 1.5;
+}
