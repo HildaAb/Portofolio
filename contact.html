@@ -45,9 +45,6 @@
               <li class="nav-item">
                 <a class="nav-link active" href="contact.html">Contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="summary.html">Summary</a>
-              </li>
             </ul>
           </div>
         </div>
@@ -55,11 +52,24 @@
     </nav>
 
     <h1>Send me a message!</h1>
-    <form>
-      <p>
-        Make a form with your name, email and your message and a nice button
-      </p>
-      <button type="button" class="btn btn-success">Contact me</button>
-    </form>
+    <div class="form-container">
+      <form>
+        <input type="name" class="name" placeholder="Your name" required />
+        <br />
+        <input
+          type="email"
+          class="email"
+          placeholder="Your emailadress"
+          required
+        /><br />
+        <input
+          type="number"
+          class="phone"
+          placeholder="Your phonenumber"
+        /><br />
+        <input type="text" class="message" placeholder="Message" /><br />
+        <button type="button" class="btn btn-success">Contact me</button>
+      </form>
+    </div>
   </body>
 </html>
