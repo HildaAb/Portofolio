@@ -11,6 +11,7 @@ img {
   text-align: center;
   margin-bottom: 50px;
   margin-left: 33px;
+  background: rgb(251, 249, 245);
 }
 
 .card-title {
@@ -28,8 +29,9 @@ img {
   color: rgb(133, 187, 232);
   font-weight: bold;
   font-size: 16px;
-  border-style: 1.5px solid rgb(27, 35, 30);
+  border: 1.5px solid rgb(27, 35, 30);
 }
+
 .btn-primary:hover {
   background-color: rgb(92, 8, 8);
   color: rgb(198, 241, 168);
