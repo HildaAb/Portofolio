@@ -2,12 +2,22 @@
   width: 100%;
 }
 
+h3 {
+  font-weight: bolder;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 90px;
+}
+
 img {
-  max-height: 140px;
+  max-height: 160px;
+}
+
+.card-body {
+  min-height: 200px;
 }
 
 .card {
-  min-height: 50px;
   text-align: center;
   margin-bottom: 50px;
   margin-left: 33px;
@@ -33,12 +43,12 @@ img {
 }
 
 .btn-primary:hover {
-  background-color: rgb(92, 8, 8);
-  color: rgb(198, 241, 168);
+  background-color: rgb(91, 26, 152);
+  color: bisque;
   font-weight: bold;
   font-weight: bold;
   font-size: 16px;
-  border: 1.5px solid rgb(92, 8, 8);
+  border: 1.5px solid rgb(91, 26, 152);
 }
 
 p {

@@ -36,6 +36,11 @@ p {
   line-height: 1.5;
 }
 
+a {
+  color: rgb(133, 187, 232);
+  font-weight: bold;
+}
+
 .container-fluid {
   display: inline-block;
 }

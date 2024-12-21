@@ -8,9 +8,22 @@ body {
 }
 
 h2 {
-  padding: 100px 0 40px;
+  padding: 60px 0 40px;
   font-size: 30px;
   color: rgb(40, 19, 60);
   font-weight: bolder;
   line-height: 1.5;
+  margin-left: 35px;
+}
+
+p {
+  margin-left: 35px;
+  margin-top: -20px;
+}
+
+.design {
+  width: 350px;
+  height: 250px;
+  margin-top: 60px;
+  margin-left: 50px;
 }
