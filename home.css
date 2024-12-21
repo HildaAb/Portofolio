@@ -37,7 +37,7 @@ p {
 }
 
 a {
-  color: rgb(133, 187, 232);
+  color: var(--primary-logo-background-color);
   font-weight: bold;
 }
 
