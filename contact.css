@@ -5,6 +5,7 @@
 
 .navbar {
   width: 100%;
+  background: black;
 }
 
 body {
@@ -62,7 +63,7 @@ a {
 }
 
 .btn:hover {
-  background-color: rgb(91, 26, 152);
+  background-color: var(--secundary-hover-color);
   color: bisque;
 }
 
@@ -84,4 +85,194 @@ a {
   color: var(--primary-logo-background-color);
   background: black;
   margin-left: 10px;
+}
+
+@media (max-width: 345px) {
+  .form-container {
+    min-height: 1000px;
+  }
+
+  .name,
+  .email,
+  .phone {
+    padding: 10px 30px;
+  }
+
+  .message {
+    padding: 10px 30px;
+  }
+
+  .contact {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: -650px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 431px) {
+  .form-container {
+    min-height: 1000px;
+  }
+
+  .name,
+  .email,
+  .phone {
+    padding: 10px 50px;
+  }
+
+  .message {
+    padding: 10px 50px;
+  }
+
+  .contact {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: -650px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 540px) {
+  .form-container {
+    min-height: 1300px;
+  }
+
+  .contact-title {
+    font-size: 16px;
+  }
+
+  .contact {
+    font-size: 10px;
+    margin-left: 360px;
+    margin-top: -1350px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 769px) {
+  .form-container {
+    min-height: 1300px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .name,
+  .email,
+  .phone {
+    padding: 8px 30px;
+  }
+
+  .message {
+    padding: 8px 30px;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin-left: 70px;
+  }
+  .contact-title {
+    font-size: 15px;
+  }
+
+  .contact {
+    font-size: 10px;
+    margin-left: 360px;
+    margin-top: -1350px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 821px) {
+  .form-container {
+    min-height: 1300px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .name,
+  .email,
+  .phone {
+    padding: 8px 20px;
+  }
+
+  .message {
+    padding: 8px 20px;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin-left: 70px;
+  }
+  .contact-title {
+    font-size: 15px;
+  }
+
+  .contact {
+    font-size: 10px;
+    margin-left: 360px;
+    margin-top: -1350px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 913px) {
+  .form-container {
+    min-height: 1400px;
+  }
+
+  .name,
+  .email,
+  .phone {
+    padding: 5px 40px;
+  }
+
+  .message {
+    padding: 5px 40px;
+  }
+
+  .btn {
+    font-size: 12px;
+    margin-left: 90px;
+  }
+  .contact-title {
+    font-size: 18px;
+  }
+
+  .contact {
+    font-size: 10px;
+    margin-left: 400px;
+    margin-top: -1450px;
+    margin-bottom: 200px;
+  }
+}
+
+@media (max-width: 1027px) {
+  .name,
+  .email,
+  .phone {
+    padding: 10px 80px;
+  }
+
+  .message {
+    padding: 10px 80px;
+  }
+
+  .btn {
+    padding: 7px 20px;
+    text-align: center;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 100px;
+  }
+
+  .contact {
+    margin-left: 440px;
+    margin-top: -390px;
+    font-size: 12px;
+  }
 }

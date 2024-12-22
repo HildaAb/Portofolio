@@ -4,6 +4,7 @@
 
 .navbar {
   width: 100%;
+  background: black;
 }
 
 body {
@@ -47,4 +48,10 @@ a {
 
 .container-fluid {
   display: inline-block;
+}
+
+@media (max-width: 414px) {
+  .logo {
+    font-size: 10px;
+  }
 }
