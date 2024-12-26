@@ -6,22 +6,27 @@
 .navbar {
   width: 100%;
   background: black;
+  border-color: black !important;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
 }
 
 h3 {
   color: var(--primary-logo-background-color);
   font-weight: bolder;
   margin-left: 30px;
-  margin-bottom: 30px;
-  margin-top: 90px;
+  margin-bottom: 50px;
+  margin-top: 60px;
 }
-
 img {
-  max-height: 160px;
+  max-height: 150px;
 }
 
 .card-body {
-  min-height: 200px;
+  min-height: 250px;
 }
 
 .card {

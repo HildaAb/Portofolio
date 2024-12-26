@@ -1,6 +1,16 @@
 .navbar {
   width: 100%;
   background: black;
+  border-color: black !important;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  margin-top: 70px;
 }
 
 h2 {
@@ -10,7 +20,6 @@ h2 {
   font-weight: 900;
   line-height: 1.5;
   margin-left: 35px;
-  color: rgb(133, 187, 232);
 }
 
 p {
