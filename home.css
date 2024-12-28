@@ -18,6 +18,7 @@ h3 {
   font-weight: bolder;
   margin-bottom: 50px;
 }
+
 img {
   width: 50px;
   height: 50px;
@@ -46,10 +47,4 @@ a {
 .logo {
   width: 40px;
   height: 40px;
-}
-
-@media (max-width: 414px) {
-  .logo {
-    font-size: 10px;
-  }
 }

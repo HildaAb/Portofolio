@@ -1,6 +1,5 @@
 :root {
   --primary-logo-background-color: rgb(133, 187, 232);
-  --secundary-hover-color: rgb(91, 26, 152);
 }
 
 .navbar {
@@ -15,55 +14,42 @@
 }
 
 h3 {
-  color: var(--primary-logo-background-color);
   font-weight: bolder;
   margin-left: 30px;
   margin-bottom: 50px;
   margin-top: 60px;
 }
-img {
-  max-height: 150px;
+
+.row {
+  padding: 7px;
+  margin-left: -9px;
+  text-align: start;
+  display: flex;
 }
 
-.card-body {
-  min-height: 250px;
+.website,
+.apps,
+.ai,
+.react {
+  font-size: 18px;
+  list-style: none;
+  font-weight: 300;
+  font-size: 17px;
+  margin-left: -10px;
 }
 
-.card {
-  text-align: center;
-  margin-bottom: 50px;
-  margin-left: 33px;
-  background: rgb(251, 249, 245);
-}
-
-.card-title {
-  font-size: 25px;
-  margin-top: 15px;
-  margin-bottom: 25px;
-}
-
-.btn-primary {
-  margin: 0;
-  padding: 10px 70px;
-  position: relative;
-  max-width: 100%;
-  background-color: rgb(27, 35, 30);
+.website-links {
+  text-decoration: none;
   color: var(--primary-logo-background-color);
-  font-weight: bold;
-  font-size: 16px;
-  border: 1.5px solid rgb(27, 35, 30);
+  font-weight: 600;
+  font-size: 17px;
+  padding: 3px;
 }
 
-.btn-primary:hover {
-  background-color: var(--secundary-hover-color);
-  color: bisque;
-  font-weight: bold;
-  font-weight: bold;
-  font-size: 16px;
-  border: 1.5px solid var(--secundary-hover-color);
-}
-
-p {
-  margin-bottom: 80px;
-  opacity: 0.7;
+.website-links:hover {
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: underline;
+  color: (--primary-logo-background-color);
+  transition: all 200ms ease-in-out;
 }

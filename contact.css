@@ -1,5 +1,4 @@
 :root {
-  --primary-logo-background-color: rgb(133, 187, 232);
   --secundary-hover-color: rgb(91, 26, 152);
 }
 
@@ -27,7 +26,7 @@ h6 {
   color: rgb(179, 175, 170);
 }
 a {
-  color: rgb(169, 158, 144);
+  color: whitesmoke;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -75,6 +74,53 @@ a {
   color: rgb(179, 175, 170);
 }
 
-.grid {
-  display: grid;
+@media (max-width: 930px) {
+  h6,
+  .grid {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 431px) {
+  .name,
+  .email,
+  .phone,
+  .message {
+    padding: 10px 100px;
+    margin-left: 30px;
+  }
+
+  h6 {
+    margin-left: 25px;
+  }
+
+  .btn {
+    margin-left: 150px;
+  }
+
+  .contact {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 391px) {
+  .name,
+  .email,
+  .phone,
+  .message {
+    padding: 10px 80px;
+    margin-left: 30px;
+  }
+
+  h6 {
+    margin-left: 20px;
+  }
+
+  .btn {
+    margin-left: 130px;
+  }
+
+  .contact {
+    margin-left: 30px;
+  }
 }

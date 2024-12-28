@@ -1,5 +1,6 @@
 :root {
   --primary-logo-background-color: rgb(133, 187, 232);
+  --primary-font-color: rgb(179, 175, 170);
 }
 
 .navbar {
@@ -33,7 +34,7 @@ h1 {
 p {
   margin-left: 20px;
   margin-bottom: 40px;
-  color: rgb(179, 175, 170);
+  color: var(--primary-font-color);
   font-size: 35px;
   line-height: 2;
 }
@@ -51,7 +52,7 @@ p {
 
 p {
   margin-left: 20px;
-  color: rgb(179, 175, 170);
+  color: var(--primary-font-color);
   font-size: 35px;
   line-height: 2;
 }
