@@ -13,6 +13,10 @@
   height: 40px;
 }
 
+.link-container {
+  max-width: 700px;
+}
+
 h3 {
   font-weight: bolder;
   margin-left: 30px;
@@ -20,11 +24,9 @@ h3 {
   margin-top: 60px;
 }
 
-.row {
-  padding: 7px;
-  margin-left: -9px;
-  text-align: start;
-  display: flex;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .website,
@@ -35,7 +37,6 @@ h3 {
   list-style: none;
   font-weight: 300;
   font-size: 17px;
-  margin-left: -10px;
 }
 
 .website-links {

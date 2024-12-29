@@ -11,6 +11,8 @@
 
 body {
   margin-top: 70px;
+  margin-left: 55px;
+  max-width: 1000px;
 }
 
 .grid {
@@ -24,11 +26,12 @@ h3 {
   color: rgb(40, 19, 60);
   font-weight: bolder;
   line-height: 1.5;
-  margin-left: 35px;
+  margin-left: 32px;
 }
 
 p {
   margin-left: 35px;
+  margin-right: 35px;
   margin-top: -20px;
   line-height: 1.5;
   opacity: 0.7;
@@ -37,50 +40,71 @@ p {
 
 .design {
   width: 350px;
-  max-height: 200px;
-  margin-left: 50px;
+  max-height: 250px;
+  margin-left: 40px;
   margin-bottom: 10px;
   margin-top: 55px;
 }
 
 .solutions {
   width: 350px;
-  max-height: 200px;
+  max-height: 250px;
   margin-left: 50px;
   margin-bottom: 10px;
   margin-top: 55px;
 }
 
-@media (max-width: 850px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .design {
-    display: none;
-  }
+.resume {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
 }
 
-@media (max-width: 854px) {
-  .design {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 412px) {
-  .design {
-    display: none;
+@media (max-width: 913px) {
+  body {
+    max-width: 1200px;
+    margin: 30px;
   }
 
   .solutions {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 250px;
   }
 
-  h2,
+  .design {
+    width: 300px;
+  }
+
   p {
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 260px;
+  }
+}
+
+@media (max-width: 431px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .design {
+    display: none;
+  }
+
+  h3,
+  p {
+    width: 340px;
+    margin: 20px;
+    margin-left: -20px;
+  }
+
+  .solutions {
+    margin: 10px;
+    margin-bottom: -40px;
+    margin-left: -15px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  h3,
+  p {
+    width: 280px;
   }
 }

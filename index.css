@@ -25,7 +25,7 @@ h1 {
   padding: 120px 0 80px;
   margin-left: 20px;
   margin-top: 20px;
-  font-size: 60px;
+  font-size: 50px;
   color: rgb(91, 26, 152);
   font-weight: bolder;
   line-height: 1.5;
@@ -55,4 +55,9 @@ p {
   color: var(--primary-font-color);
   font-size: 35px;
   line-height: 2;
+}
+@media (max-width: 391px) {
+  p {
+    font-size: 30px;
+  }
 }
