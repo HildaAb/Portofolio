@@ -41,7 +41,7 @@ a {
 .email,
 .phone,
 .message {
-  padding: 10px 210px;
+  padding: 10px 150px;
   padding-left: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -73,18 +73,20 @@ a {
   margin-left: 35px;
   font-weight: 700;
   margin-bottom: -20px;
+  margin-top: -200px;
+  position: fixed;
 }
 
 .img-fluid {
-  width: 100%;
-  min-height: 625px;
+  width: 55%;
+  min-height: 20%;
   margin-left: 0;
   position: fixed;
 }
 
 @media (max-width: 1290px) {
   .img-fluid {
-    min-height: 1200px;
+    min-height: 1000px;
   }
 
   h6 {
@@ -95,11 +97,11 @@ a {
   .email,
   .phone,
   .message {
-    padding: 10px 150px;
+    padding: 10px 190px;
     padding-left: 10px;
   }
   .btn {
-    margin-left: 120px;
+    margin-left: 130px;
     margin-top: 20px;
   }
 
