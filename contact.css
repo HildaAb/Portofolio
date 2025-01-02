@@ -9,7 +9,9 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 900px;
+  margin-left: 30px;
+  min-height: 500px;
 }
 
 img {
@@ -18,10 +20,10 @@ img {
 }
 
 h6 {
-  font-size: 25px;
+  font-size: 30px;
   margin-left: 35px;
   margin-top: 120px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   color: rgb(179, 175, 170);
 }
 
@@ -41,7 +43,7 @@ a {
 .email,
 .phone,
 .message {
-  padding: 10px 150px;
+  padding: 10px 30px;
   padding-left: 20px;
   margin-bottom: 20px;
   margin-left: 30px;
@@ -78,19 +80,28 @@ a {
 }
 
 .img-fluid {
-  width: 55%;
-  min-height: 20%;
-  margin-left: 0;
+  width: 35%;
+  min-height: 10%;
+  margin-left: 10px;
+  margin-right: 0;
   position: fixed;
 }
 
-@media (max-width: 1290px) {
-  .img-fluid {
-    min-height: 1000px;
+@media (max-width: 2600px) {
+  body {
+    max-width: 1000px;
   }
 
   h6 {
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 180px;
+    margin-bottom: 60px;
+  }
+
+  .img-fluid {
+    min-height: 100%;
+    width: 50%;
+    margin-left: 120px;
   }
 
   .name,
@@ -106,11 +117,15 @@ a {
   }
 
   .contact {
-    margin-top: 600px;
+    margin-top: 800px;
   }
 }
 
 @media (max-width: 1000px) {
+  .body {
+    min-height: 100%;
+  }
+
   h6 {
     font-size: 40px;
     margin-left: -20px;
@@ -131,15 +146,17 @@ a {
   }
 
   .contact {
-    margin-top: 500px;
-    margin-left: -20px;
+    font-size: 35px;
+    margin-top: 600px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 913px) {
+  .img-fluid {
+    width: 60%;
+  }
   h6 {
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 27px;
   }
 
   .name,
@@ -147,29 +164,31 @@ a {
   .phone,
   .message {
     padding: 10px 75px;
-    margin-left: 10px;
+
     padding-left: 10px;
   }
 
   .btn {
-    margin-left: 70px;
     margin-top: 20px;
+    padding: 10px 25px;
   }
 
   .contact {
-    margin-top: 450px;
+    font-size: 20px;
+    margin-top: 470px;
     margin-left: 10px;
   }
 }
 
 @media (max-width: 800px) {
   .img-fluid {
-    width: 60%;
+    display: none;
   }
 
   h6 {
-    font-size: 36px;
+    font-size: 23px;
     margin-left: 10px;
+    margin-top: 120px;
   }
 
   .name,
@@ -188,61 +207,81 @@ a {
   }
 
   .contact {
-    margin-top: 230px;
+    font-size: 15px;
+    margin-top: 20px;
     margin-left: 10px;
   }
 }
 
 @media (max-width: 600px) {
   h6 {
-    font-size: 30px;
-    margin-left: 10px;
+    font-size: 25px;
+    margin-left: 30px;
   }
 
   .name,
   .email,
   .phone,
   .message {
-    padding: 10px 30px;
+    padding: 10px 200px;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 
   .btn {
     padding: 10px 35px;
-    margin-left: 60px;
+    margin-left: 140px;
     margin-top: 15px;
   }
 
   .contact {
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 30px;
   }
 }
 
 @media (max-width: 450px) {
-  .img-fluid {
-    display: none;
-  }
   h6 {
-    font-size: 26px;
+    font-size: 24px;
+    min-width: 620px;
   }
 
   .name,
   .email,
   .phone,
   .message {
-    padding: 10px 160px;
+    padding: 10px 80px;
     padding-left: 10px;
   }
 
   .btn {
     padding: 10px 35px;
-    margin-left: 120px;
+    margin-left: 90px;
     margin-top: 15px;
   }
 
   .contact {
-    margin-top: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    max-width: 340px;
+    min-height: 880px;
+  }
+  .name,
+  .email,
+  .phone,
+  .message {
+    padding: 10px 25px;
+    padding-left: 10px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    margin-left: 90px;
+    margin-top: 15px;
   }
 }

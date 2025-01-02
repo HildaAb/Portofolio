@@ -61,3 +61,30 @@ p {
     font-size: 30px;
   }
 }
+
+@media (min-width: 1600px) {
+  .content {
+    margin-left: -50px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .container {
+    margin-left: 150px;
+  }
+  h1 {
+    font-size: 110px;
+  }
+
+  p {
+    font-size: 90px;
+  }
+}
