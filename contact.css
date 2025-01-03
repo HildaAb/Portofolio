@@ -42,7 +42,7 @@ a {
 .email,
 .phone,
 .message {
-  padding: 8px 160px;
+  padding: 8px 260px;
   padding-left: 20px;
   margin-bottom: 20px;
   box-shadow: 0px 1.5px 2px 0px rgba(145, 199, 240, 0.3),
@@ -52,10 +52,10 @@ a {
 }
 
 .btn {
-  padding: 8px 25px;
+  padding: 8px 29px;
   padding-left: 30px;
   margin-bottom: 30px;
-  margin-left: 110px;
+  margin-left: 160px;
   box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),
     0px 1px 3px 1px rgba(60, 64, 67, 0.15);
   border-style: none;
