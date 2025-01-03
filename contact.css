@@ -9,8 +9,8 @@
 }
 
 body {
-  max-width: 900px;
-  margin-left: 30px;
+  max-width: 1200px;
+  margin-left: 90px;
   min-height: 500px;
 }
 
@@ -21,9 +21,8 @@ img {
 
 h6 {
   font-size: 30px;
-  margin-left: 35px;
-  margin-top: 120px;
-  margin-bottom: 50px;
+  margin-top: 140px;
+  margin-bottom: 40px;
   color: rgb(179, 175, 170);
 }
 
@@ -43,25 +42,26 @@ a {
 .email,
 .phone,
 .message {
-  padding: 10px 30px;
+  padding: 8px 160px;
   padding-left: 20px;
   margin-bottom: 20px;
-  margin-left: 30px;
-  border-radius: 8px;
-  border: 2px solid rgb(226, 224, 197);
-  background: rgb(251, 249, 245);
+  box-shadow: 0px 1.5px 2px 0px rgba(145, 199, 240, 0.3),
+    0px 1px 3px 1px rgba(145, 199, 240, 0.3);
+  border-style: none;
+  background: rgb(244, 244, 242);
 }
 
 .btn {
-  padding: 10px 55px;
-  padding-left: 50px;
+  padding: 8px 25px;
+  padding-left: 30px;
   margin-bottom: 30px;
-  margin-left: 150px;
-  border-radius: 40px;
+  margin-left: 110px;
+  box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),
+    0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+  border-style: none;
   font-weight: 700;
   background: rgb(133, 187, 232);
   color: white !important;
-  border-style: none;
 }
 
 .btn:hover {
@@ -72,216 +72,83 @@ a {
 
 .contact {
   color: rgb(179, 175, 170);
-  margin-left: 35px;
+
   font-weight: 700;
   margin-bottom: -20px;
-  margin-top: -200px;
   position: fixed;
 }
 
 .img-fluid {
-  width: 35%;
+  width: 50%;
   min-height: 10%;
   margin-left: 10px;
   margin-right: 0;
   position: fixed;
 }
 
-@media (max-width: 2600px) {
-  body {
-    max-width: 1000px;
+@media (max-width: 920px) {
+  .img-fluid {
+    min-height: 1400px;
   }
 
   h6 {
-    font-size: 25px;
-    margin-top: 180px;
+    margin-left: -20px;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .message {
+    padding: 4px 110px;
+    padding-left: 20px;
+    font-size: 13px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    padding: 4px 18px;
+    font-size: 13px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+  }
+
+  .contact {
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 550px) {
+  h6 {
+    font-size: 18px;
+    margin-top: 130px;
+    margin-left: -40px;
     margin-bottom: 60px;
   }
-
-  .img-fluid {
-    min-height: 100%;
-    width: 50%;
-    margin-left: 120px;
-  }
-
   .name,
   .email,
   .phone,
   .message {
-    padding: 10px 190px;
-    padding-left: 10px;
-  }
-  .btn {
-    margin-left: 130px;
-    margin-top: 20px;
-  }
-
-  .contact {
-    margin-top: 800px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .body {
-    min-height: 100%;
-  }
-
-  h6 {
-    font-size: 40px;
-    margin-left: -20px;
-  }
-
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 90px;
-    margin-left: -20px;
-    padding-left: 10px;
+    padding: 4px 80px;
+    padding-left: 20px;
+    font-size: 13px;
+    margin-left: -32px;
+    margin-bottom: 15px;
   }
 
   .btn {
-    margin-left: 40px;
-    margin-top: 20px;
+    padding: 4px 23px;
+    font-size: 13px;
+    margin-left: 50px;
+    margin-bottom: 25px;
   }
 
-  .contact {
-    font-size: 35px;
-    margin-top: 600px;
-  }
-}
-
-@media (max-width: 913px) {
-  .img-fluid {
-    width: 60%;
-  }
-  h6 {
-    font-size: 27px;
-  }
-
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 75px;
-
-    padding-left: 10px;
-  }
-
-  .btn {
-    margin-top: 20px;
-    padding: 10px 25px;
-  }
-
-  .contact {
-    font-size: 20px;
-    margin-top: 470px;
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 800px) {
   .img-fluid {
     display: none;
   }
 
-  h6 {
-    font-size: 23px;
-    margin-left: 10px;
-    margin-top: 120px;
-  }
-
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 110px;
-    padding-left: 10px;
-    margin-left: 10px;
-  }
-
-  .btn {
-    padding: 10px 35px;
-    margin-left: 90px;
-    margin-top: 15px;
-  }
-
   .contact {
-    font-size: 15px;
-    margin-top: 20px;
-    margin-left: 10px;
-  }
-}
-
-@media (max-width: 600px) {
-  h6 {
-    font-size: 25px;
-    margin-left: 30px;
-  }
-
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 200px;
-    padding-left: 10px;
-    margin-left: 30px;
-  }
-
-  .btn {
-    padding: 10px 35px;
-    margin-left: 140px;
-    margin-top: 15px;
-  }
-
-  .contact {
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-}
-
-@media (max-width: 450px) {
-  h6 {
-    font-size: 24px;
-    min-width: 620px;
-  }
-
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 80px;
-    padding-left: 10px;
-  }
-
-  .btn {
-    padding: 10px 35px;
-    margin-left: 90px;
-    margin-top: 15px;
-  }
-
-  .contact {
-    margin-top: 30px;
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 350px) {
-  body {
-    max-width: 340px;
-    min-height: 880px;
-  }
-  .name,
-  .email,
-  .phone,
-  .message {
-    padding: 10px 25px;
-    padding-left: 10px;
-  }
-
-  .btn {
-    padding: 10px 20px;
-    margin-left: 90px;
-    margin-top: 15px;
+    font-size: 13px;
+    margin-left: -40px;
   }
 }
