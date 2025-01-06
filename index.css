@@ -112,36 +112,80 @@ body {
 
 @media (max-width: 1100px) {
   .hero h2 {
-    font-size: 100px;
+    font-size: 80px;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .hero p {
-    font-size: 55px;
+    font-size: 50px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 50px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 860px) {
   .hero h2 {
     margin-top: 10px;
-    font-size: 80px;
+    font-size: 90px;
+    margin-left: 75px;
+  }
+
+  .hero p {
+    font-size: 60px;
+    margin-left: 75px;
+  }
+
+  .logo1 {
+    margin-right: 400px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 541px) {
   .hero h2 {
-    font-size: 65px;
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 48px;
+    margin-left: 70px;
+    margin-right: 50px;
     margin-top: -60px;
   }
 
-    .hero p {
-      font-size: 35px;{
+  .hero p {
+    font-size: 45px;
+  }
 
-    }
+  .logo1 {
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 430px) {
+  .hero h2 {
+    font-size: 43px;
+    margin-left: 30px;
+  }
+  .hero p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .logo1 {
+    margin-right: 180px;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero h2 {
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  .hero p {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .logo1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 150px;
+  }
 }
