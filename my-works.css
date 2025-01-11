@@ -135,7 +135,7 @@ h3 {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .website-links {
     margin-left: -110px;
     padding: 3px 7px;
