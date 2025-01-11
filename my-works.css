@@ -32,11 +32,11 @@ h3 {
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
 }
+
 .website,
 .apps,
 .ai,
 .react {
-  font-size: 18px;
   list-style: none;
   font-weight: 300;
   font-size: 17px;
@@ -59,7 +59,6 @@ h3 {
   padding-left: 10px;
   margin-left: -320px;
   background: rgb(244, 247, 244);
-
   border-bottom: 2px solid rgb(133, 187, 232);
   box-shadow: 0px 3px 6px 0px rgba(60, 64, 67, 0.3),
     0px 3px 4px 3px rgba(172, 231, 241, 0.15);
@@ -69,6 +68,77 @@ h3 {
   font-size: 20px;
   font-weight: 800;
   text-decoration: underline;
-  color: (--primary-logo-background-color);
+  color: rgb(133, 187, 232);
   transition: all 200ms ease-in-out;
+}
+
+@media (max-width: 850px) {
+  .grid {
+    grid-gap: 15px;
+    margin-right: -40px;
+  }
+}
+
+@media (max-width: 800px) {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .work-container {
+    margin-left: -70px;
+  }
+  .grid {
+    grid-gap: 25px;
+    margin-right: 50px;
+  }
+  .website,
+  .apps,
+  .ai,
+  .react {
+    display: none;
+  }
+
+  .website-links {
+    padding: 8px 10px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 550px) {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 18px;
+  }
+  .grid {
+    grid-gap: 15px;
+  }
+
+  .website-links {
+    margin-left: -200px;
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 430px) {
+  .website-links {
+    margin-left: -140px;
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .website-links {
+    margin-left: -180px;
+  }
+}
+
+@media (max-width: 350px) {
+  .website-links {
+    margin-left: -110px;
+    padding: 3px 7px;
+    font-size: 8px;
+  }
 }
