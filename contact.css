@@ -68,7 +68,7 @@ a {
 }
 
 .btn:hover {
-  background-color: rgb(73, 39, 105);
+  background-color: rgb(112, 49, 172);
   color: rgb(233, 236, 238);
   border-style: none;
 }
@@ -153,5 +153,20 @@ a {
   .contact {
     font-size: 13px;
     margin-left: -40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .name,
+  .email,
+  .phone,
+  .message {
+    margin-left: -40px;
+    padding: 4px 60px;
+    padding-left: 20px;
+  }
+
+  .btn {
+    margin-left: 40px;
   }
 }
