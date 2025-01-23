@@ -100,12 +100,13 @@ a:hover {
   position: fixed;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 1100px) {
   .img-fluid {
     min-height: 1400px;
   }
 
   h6 {
+    font-size: 25px;
     margin-left: -20px;
   }
 
@@ -113,16 +114,17 @@ a:hover {
   .email,
   .phone,
   .message {
-    padding: 4px 110px;
-    padding-left: 20px;
-    font-size: 13px;
+    padding: 10px 20px;
+    width: 400px;
+    padding-left: 10px;
+    font-size: 12px;
     margin-left: -20px;
     margin-bottom: 15px;
   }
 
   .btn {
-    padding: 4px 18px;
-    font-size: 13px;
+    padding: 10px 15px;
+    font-size: 11px;
     margin-left: 80px;
     margin-bottom: 25px;
   }
@@ -134,7 +136,7 @@ a:hover {
 
 @media (max-width: 550px) {
   h6 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 130px;
     margin-left: -40px;
     margin-bottom: 60px;
@@ -144,15 +146,15 @@ a:hover {
   .phone,
   .message {
     padding: 4px 80px;
-    padding-left: 20px;
-    font-size: 13px;
+    padding-left: 10px;
+    font-size: 9px;
     margin-left: -32px;
     margin-bottom: 15px;
   }
 
   .btn {
     padding: 4px 23px;
-    font-size: 13px;
+    font-size: 11px;
     margin-left: 50px;
     margin-bottom: 25px;
   }
@@ -168,16 +170,28 @@ a:hover {
 }
 
 @media (max-width: 420px) {
+  h6 {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
   .name,
   .email,
   .phone,
   .message {
+    font-size: 10px;
     margin-left: -40px;
-    padding: 4px 60px;
-    padding-left: 20px;
+    padding: 10px 20px;
+    width: 300px;
+    padding-left: 10px;
   }
 
   .btn {
-    margin-left: 40px;
+    margin-left: 30px;
+    font-size: 9px;
+  }
+
+  .contact {
+    font-size: 10px;
   }
 }

@@ -171,13 +171,12 @@ body {
   .hero h2 {
     font-size: 43px;
     margin-left: 30px;
+    margin-right: -10px;
   }
   .hero p {
     font-size: 30px;
     margin-left: 30px;
-  }
-  .logo1 {
-    margin-right: 180px;
+    margin-right: -10px;
   }
 }
 
