@@ -4,32 +4,32 @@
 
 .navbar {
   width: 100%;
+  font-weight: bold;
   background-color: black;
   border-color: black !important;
 }
 
-.logo {
+.logo,
+.logo1 {
   width: 40px;
   height: 40px;
 }
-a:hover {
+.nav-link:hover {
   font-size: 22px;
   margin-left: 5px;
   margin-right: 5px;
   border-radius: 5px;
-  color: rgb(112, 49, 172);
-  text-shadow: 3px 3px 5px goldenrod;
   box-shadow: 0px 3px 6px 0px goldenrod, 0px 3px 4px 3px rgb(112, 49, 172);
 }
 
 body {
-  font-family: "Montserrat", sans-sherif;
+  font-family: "Orbitron", serif;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -42,26 +42,24 @@ body {
   display: flex;
   align-items: center;
   overflow: hidden;
+  font-size: 40px;
 }
 .hero h2 {
   position: relative;
-  font-weight: bolder;
-  line-height: 1.5;
+  font-size: 80px;
+  font-weight: 900px;
   z-index: 1;
-  font-size: 60px;
-  margin-bottom: 20px;
   line-height: 1.5;
+  margin-left: 50px;
   color: rgb(112, 49, 172);
-  text-shadow: 3px 3px 5px goldenrod;
+  text-shadow: 4px 4px 9px goldenrod;
 }
 
 .hero p {
   position: relative;
   z-index: 1;
-  font-size: 50px;
   line-height: 1.4;
-  margin-left: 80px;
-  color: rgb(202, 205, 199) !important;
+  margin-left: 50px;
 }
 
 .waves {
