@@ -65,6 +65,7 @@ h3 {
 .website-links-travel,
 .website-links-weather,
 .website-links-clock,
+.website-links-quote,
 .website-links-ai,
 .website-links-dictionary {
   text-decoration: none;
@@ -80,9 +81,14 @@ h3 {
     0px 3px 4px 3px rgba(125, 137, 139, 0.15);
 }
 
+.website-links-weather {
+  margin-bottom: 50px;
+}
+
 .website-links-travel:hover,
 .website-links-weather:hover,
 .website-links-clock:hover,
+.website-links-quote:hover,
 .website-links-ai:hover,
 .website-links-dictionary:hover {
   font-size: 22px;
