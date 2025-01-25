@@ -148,7 +148,8 @@ h3 {
 
   .website-links-travel,
   .website-links-weather,
-  .website-links-ai {
+  .website-links-ai,
+  .website-links-quote {
     padding: 10px 20px;
     font-size: 15px;
     font-weight: 700;
@@ -170,7 +171,8 @@ h3 {
   }
   .website-links-travel,
   .website-links-weather,
-  .website-links-ai {
+  .website-links-ai,
+  .website-links-quote {
     font-size: 12px;
     margin-left: -180px;
     padding: 10px 16px;
@@ -187,39 +189,68 @@ h3 {
   h3 {
     margin-left: 20px;
     margin-bottom: 20px;
+    font-size: 15px;
   }
+
   .grid {
     grid-gap: 5px;
   }
+
   .website-links-travel,
   .website-links-weather,
   .website-links-ai {
-    margin-left: -120px;
-    font-size: 8px;
-    padding: 6px 9px;
+    margin-left: -130px;
+    margin-right: 35px;
+    font-size: 6px;
+    padding: 6px 7px;
+  }
+  .website-links-quote {
+    margin-left: -130px;
+    font-size: 6px;
+    padding: 6px 7px;
   }
 
-  .website-links-clock,
+  .website-links-clock {
+    font-size: 6px;
+    padding: 6px 7px;
+    margin-left: -155px;
+  }
+
   .website-links-dictionary {
-    margin-left: -90px;
-    font-size: 9px;
-    padding: 6px 9px;
+    font-size: 6px;
+    padding: 6px 7px;
+    margin-left: -120px;
   }
 }
 
-@media (max-width: 361px) {
+@media (max-width: 390px) {
+  h3 {
+    margin-left: 60px;
+  }
+
   .website-links-travel,
   .website-links-weather,
   .website-links-ai {
+    margin-left: -70px;
+    margin-right: 50px;
     font-size: 4px;
-    margin-left: -95px;
-    margin-right: 45px;
-    padding: 4px 4px;
+    padding: 4px 5px;
+  }
+  .website-links-quote {
+    margin-left: -70px;
+    font-size: 4px;
+    padding: 4px 5px;
   }
 
-  .website-links-clock,
+  .website-links-clock {
+    font-size: 4px;
+    padding: 4px 5px;
+    margin-left: -110px;
+  }
+
   .website-links-dictionary {
     font-size: 4px;
-    padding: 4px 4px;
+    padding: 4px 5px;
+    margin-left: -66px;
   }
 }
