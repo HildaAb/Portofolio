@@ -64,15 +64,13 @@ h3 {
 
 .website-links-travel,
 .website-links-weather,
-.website-links-clock,
 .website-links-quote,
-.website-links-ai,
-.website-links-dictionary {
+.website-links-ai {
   text-decoration: none;
   color: var(--primary-logo-background-color);
   font-weight: 700;
   font-size: 18px;
-  padding: 10px 50px;
+  padding: 10px 20px;
   padding-left: 10px;
   margin-left: -280px;
   background: rgb(244, 247, 244);
@@ -85,10 +83,39 @@ h3 {
   margin-bottom: 50px;
 }
 
+.website-links-clock,
+.website-links-dictionary {
+  text-decoration: none;
+  color: var(--primary-logo-background-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 20px;
+  padding-left: 10px;
+  margin-left: -310px;
+  background: rgb(244, 247, 244);
+  border-bottom: 2px solid rgb(133, 187, 232);
+  box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
+    0px 3px 4px 3px rgba(125, 137, 139, 0.15);
+}
+
+.website-links-scroll {
+  text-decoration: none;
+  color: var(--primary-logo-background-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-left: -310px;
+  background: rgb(244, 247, 244);
+  border-bottom: 2px solid rgb(133, 187, 232);
+  box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
+    0px 3px 4px 3px rgba(125, 137, 139, 0.15);
+}
+
 .website-links-travel:hover,
 .website-links-weather:hover,
 .website-links-clock:hover,
 .website-links-quote:hover,
+.website-links-scroll:hover,
 .website-links-ai:hover,
 .website-links-dictionary:hover {
   font-size: 22px;
@@ -136,14 +163,17 @@ h3 {
 }
 
 @media (max-width: 790px) {
+  body {
+    margin-left: -150px;
+  }
   h3 {
     margin-top: 90px;
-    margin-left: 120px;
+    margin-left: 180px;
     margin-bottom: 50px;
   }
 
   .grid {
-    grid-gap: 35px;
+    grid-gap: 25px;
   }
 
   .website-links-travel,
@@ -161,11 +191,24 @@ h3 {
     padding: 10px 20px;
     font-size: 15px;
     font-weight: 700;
-    margin-left: -190px;
+    margin-left: -250px;
+  }
+
+  .website-links-quote {
+    margin-right: 60px;
+  }
+
+  .website-links-scroll {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-left: -230px;
   }
 }
 
 @media (max-width: 540px) {
+  body {
+    margin-left: -30px;
+  }
   h3 {
     margin-left: 47px;
   }
@@ -174,38 +217,63 @@ h3 {
   .website-links-ai,
   .website-links-quote {
     font-size: 12px;
-    margin-left: -180px;
+    margin-left: -190px;
     padding: 10px 16px;
   }
 
-  .website-links-clock,
+  .website-links-clock {
+    font-size: 12px;
+    margin-left: -160px;
+    padding: 10px 16px;
+  }
+
   .website-links-dictionary {
     font-size: 12px;
-    margin-left: -130px;
+    margin-left: -160px;
+    padding: 10px 16px;
+  }
+
+  .website-links-quote {
+    margin-right: 67px;
+  }
+
+  .website-links-scroll {
+    font-size: 12px;
+    margin-left: -160px;
+    margin-right: 10px;
     padding: 10px 16px;
   }
 }
+
 @media (max-width: 440px) {
+  body {
+    margin-left: -15px;
+  }
   h3 {
     margin-left: 20px;
     margin-bottom: 20px;
     font-size: 15px;
   }
-
   .grid {
-    grid-gap: 5px;
+    grid-gap: 2px;
   }
 
   .website-links-travel,
   .website-links-weather,
   .website-links-ai {
-    margin-left: -130px;
+    margin-left: -135px;
     margin-right: 35px;
     font-size: 6px;
     padding: 6px 7px;
   }
   .website-links-quote {
-    margin-left: -130px;
+    margin-left: -135px;
+    font-size: 6px;
+    padding: 6px 7px;
+  }
+
+  .website-links-scroll {
+    margin-left: -125px;
     font-size: 6px;
     padding: 6px 7px;
   }
@@ -213,44 +281,52 @@ h3 {
   .website-links-clock {
     font-size: 6px;
     padding: 6px 7px;
-    margin-left: -155px;
+    margin-left: -130px;
   }
 
   .website-links-dictionary {
     font-size: 6px;
     padding: 6px 7px;
-    margin-left: -120px;
+    margin-left: -130px;
   }
 }
 
 @media (max-width: 390px) {
+  body {
+    margin-left: 40px;
+  }
   h3 {
-    margin-left: 60px;
+    margin-left: -30px;
   }
 
   .website-links-travel,
   .website-links-weather,
   .website-links-ai {
-    margin-left: -70px;
-    margin-right: 50px;
     font-size: 4px;
-    padding: 4px 5px;
+    padding: 4px 4px;
+    margin-left: -120px;
   }
   .website-links-quote {
-    margin-left: -70px;
     font-size: 4px;
-    padding: 4px 5px;
+    padding: 4px 4px;
+    margin-left: -120px;
+  }
+
+  .website-links-scroll {
+    font-size: 4px;
+    padding: 4px4px;
+    margin-left: -100px;
   }
 
   .website-links-clock {
     font-size: 4px;
-    padding: 4px 5px;
-    margin-left: -110px;
+    padding: 4px 4px;
+    margin-left: -105px;
   }
 
   .website-links-dictionary {
     font-size: 4px;
-    padding: 4px 5px;
-    margin-left: -66px;
+    padding: 4px 4px;
+    margin-left: -105px;
   }
 }
