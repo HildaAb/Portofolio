@@ -47,11 +47,12 @@ body {
 .hero h2 {
   position: relative;
   font-size: 80px;
+  letter-spacing: 2;
   font-weight: 900px;
   z-index: 1;
   line-height: 1.5;
   margin-left: 50px;
-  color: rgb(57, 25, 88);
+  color: rgb(134, 80, 187);
   text-shadow: 4px 4px 9px goldenrod;
 }
 
