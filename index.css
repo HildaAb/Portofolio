@@ -7,6 +7,7 @@
   font-weight: bold;
   background-color: black;
   border-color: black !important;
+  letter-spacing: 3px;
 }
 
 .logo,
@@ -46,9 +47,10 @@ body {
 }
 .hero h2 {
   position: relative;
-  font-size: 80px;
+  font-size: 70px;
   letter-spacing: 2;
   font-weight: 900px;
+  letter-spacing: 8px;
   z-index: 1;
   line-height: 1.5;
   margin-left: 50px;

@@ -7,6 +7,7 @@
   font-weight: bold;
   background: black;
   border-color: black !important;
+  letter-spacing: 3px;
 }
 
 .logo {
@@ -27,6 +28,7 @@
 }
 body {
   font-family: "Orbitron", serif;
+  width: 900px;
 }
 
 h3 {
@@ -39,9 +41,9 @@ h3 {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
   justify-content: space-evenly;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
 }
 
 .website,
@@ -55,7 +57,6 @@ h3 {
   width: 100px;
   padding-left: 10px;
   margin-top: -8px;
-  margin-bottom: 20px;
   border-bottom: 2px solid rgb(133, 187, 232);
   background-color: rgb(244, 247, 244);
   box-shadow: 0px 3px 6px 0px rgba(60, 64, 67, 0.3),
@@ -72,15 +73,11 @@ h3 {
   font-size: 18px;
   padding: 10px 20px;
   padding-left: 10px;
-  margin-left: -280px;
   background: rgb(244, 247, 244);
   border-bottom: 2px solid rgb(133, 187, 232);
   box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
     0px 3px 4px 3px rgba(125, 137, 139, 0.15);
-}
-
-.website-links-weather {
-  margin-bottom: 50px;
+  margin-left: -300px;
 }
 
 .website-links-clock,
@@ -91,30 +88,45 @@ h3 {
   font-size: 18px;
   padding: 10px 20px;
   padding-left: 10px;
-  margin-left: -310px;
   background: rgb(244, 247, 244);
   border-bottom: 2px solid rgb(133, 187, 232);
   box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
     0px 3px 4px 3px rgba(125, 137, 139, 0.15);
+  margin-left: -350px;
 }
 
-.website-links-scroll {
+.website-links-light {
   text-decoration: none;
   color: var(--primary-logo-background-color);
   font-weight: 700;
   font-size: 18px;
   padding: 10px 20px;
-  margin-left: -310px;
   background: rgb(244, 247, 244);
   border-bottom: 2px solid rgb(133, 187, 232);
   box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
     0px 3px 4px 3px rgba(125, 137, 139, 0.15);
+  margin-left: -295px;
+}
+
+.website-links-joke {
+  text-decoration: none;
+  color: var(--primary-logo-background-color);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 10px 20px;
+  background: rgb(244, 247, 244);
+  border-bottom: 2px solid rgb(133, 187, 232);
+  box-shadow: 0px 3px 6px 0px rgba(61, 68, 74, 0.3),
+    0px 3px 4px 3px rgba(125, 137, 139, 0.15);
+  margin-left: -375px;
 }
 
 .website-links-travel:hover,
+.website-links-light:hover,
 .website-links-weather:hover,
 .website-links-clock:hover,
 .website-links-quote:hover,
+.website-links-joke:hover,
 .website-links-scroll:hover,
 .website-links-ai:hover,
 .website-links-dictionary:hover {
@@ -132,18 +144,22 @@ h3 {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
+  body {
+    margin-left: 35px;
+  }
   h3 {
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 90px;
     margin-bottom: 40px;
   }
   .work-container {
-    margin-left: -70px;
+    margin-left: -330px;
   }
   .grid {
-    grid-gap: 25px;
-    margin-right: 80px;
+    grid-gap: 35px;
   }
+
   .website,
   .apps,
   .ai,
@@ -153,12 +169,26 @@ h3 {
 
   .website-links-travel,
   .website-links-weather,
-  .website-links-clock,
-  .website-links-ai,
-  .website-links-dictionary {
+  .website-links-ai {
     padding: 8px 10px;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 600;
+  }
+
+  .website-links-light {
+    margin-left: -400px;
+  }
+
+  .website-links-clock {
+    margin-left: -460px;
+  }
+
+  .website-links-joke {
+    margin-left: -485px;
+  }
+
+  .website-links-dictionary {
+    margin-left: -450px;
   }
 }
 
@@ -169,7 +199,6 @@ h3 {
   h3 {
     margin-top: 90px;
     margin-left: 180px;
-    margin-bottom: 50px;
   }
 
   .grid {
@@ -186,6 +215,18 @@ h3 {
     margin-left: -230px;
   }
 
+  .website-links-light {
+    margin-left: -200px;
+  }
+
+  .website-links-joke {
+    margin-left: -260px;
+  }
+
+  .website-links-dictionay {
+    margin-left: -460px;
+  }
+
   .website-links-clock,
   .website-links-dictionary {
     padding: 10px 20px;
@@ -193,140 +234,155 @@ h3 {
     font-weight: 700;
     margin-left: -250px;
   }
+}
 
-  .website-links-quote {
-    margin-right: 60px;
+@media (max-width: 790px) {
+  .website-links-travel,
+  .website-links-weather,
+  .website-links-quote,
+  .website-links-ai {
+    margin-left: -160px;
   }
 
-  .website-links-scroll {
-    font-size: 15px;
-    padding: 10px 20px;
-    margin-left: -230px;
+  .website-links-light,
+  .website-links-clock,
+  .website-links-joke,
+  .website-links-dictionary {
+    margin-left: -210px;
   }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 430px) {
   body {
-    margin-left: -30px;
+    margin-left: -120px;
   }
+
   h3 {
-    margin-left: 47px;
+    margin-left: 180px;
   }
+
   .website-links-travel,
+  .website-links-light,
   .website-links-weather,
+  .website-links-clock,
+  .website-links-quote,
+  .website-links-joke,
   .website-links-ai,
-  .website-links-quote {
-    font-size: 12px;
-    margin-left: -190px;
-    padding: 10px 16px;
+  .website-links-dictionary {
+    font-size: 8px;
+    padding: 8px 10px;
+    padding: 6px 10px;
+  }
+
+  .website-links-light {
+    margin-left: -380px;
   }
 
   .website-links-clock {
-    font-size: 12px;
-    margin-left: -160px;
-    padding: 10px 16px;
+    margin-left: -410px;
+  }
+
+  .website-links-joke {
+    margin-left: -420px;
   }
 
   .website-links-dictionary {
-    font-size: 12px;
-    margin-left: -160px;
-    padding: 10px 16px;
-  }
-
-  .website-links-quote {
-    margin-right: 67px;
-  }
-
-  .website-links-scroll {
-    font-size: 12px;
-    margin-left: -160px;
-    margin-right: 10px;
-    padding: 10px 16px;
+    margin-left: -410px;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 420px) {
   body {
-    margin-left: -15px;
+    margin-left: -20px;
   }
+
   h3 {
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-size: 15px;
+    margin-left: 50px;
   }
-  .grid {
-    grid-gap: 2px;
+
+  .website-links-travel,
+  .website-links-light,
+  .website-links-weather,
+  .website-links-clock,
+  .website-links-quote,
+  .website-links-joke,
+  .website-links-ai,
+  .website-links-dictionary {
+    font-size: 13px;
+    padding: 9px 12px;
+    padding: 6px 10px;
   }
 
   .website-links-travel,
   .website-links-weather,
+  .website-links-quote,
   .website-links-ai {
-    margin-left: -135px;
-    margin-right: 35px;
-    font-size: 6px;
-    padding: 6px 7px;
-  }
-  .website-links-quote {
-    margin-left: -135px;
-    font-size: 6px;
-    padding: 6px 7px;
+    margin-left: -290px;
   }
 
-  .website-links-scroll {
-    margin-left: -125px;
-    font-size: 6px;
-    padding: 6px 7px;
+  .website-links-light {
+    margin-left: -460px;
   }
 
   .website-links-clock {
-    font-size: 6px;
-    padding: 6px 7px;
-    margin-left: -130px;
+    margin-left: -500px;
+  }
+
+  .website-links-joke {
+    margin-left: -520px;
   }
 
   .website-links-dictionary {
-    font-size: 6px;
-    padding: 6px 7px;
-    margin-left: -130px;
+    margin-left: -503px;
   }
 }
 
-@media (max-width: 390px) {
-  body {
-    margin-left: 40px;
-  }
+@media (max-width: 350px) {
   h3 {
-    margin-left: -30px;
+    font-size: 25px;
   }
 
   .website-links-travel,
+  .website-links-light,
   .website-links-weather,
-  .website-links-ai {
-    font-size: 4px;
-    padding: 4px 4px;
-    margin-left: -120px;
-  }
-  .website-links-quote {
-    font-size: 4px;
-    padding: 4px 4px;
-    margin-left: -120px;
+  .website-links-clock,
+  .website-links-quote,
+  .website-links-joke,
+  .website-links-ai,
+  .website-links-dictionary {
+    font-size: 11px;
+    padding: 9px 12px;
+    padding: 6px 10px;
   }
 
-  .website-links-scroll {
-    font-size: 4px;
-    padding: 4px4px;
-    margin-left: -100px;
+  .website-links-light {
+    margin-left: -470px;
   }
 
   .website-links-clock {
-    font-size: 4px;
-    padding: 4px 4px;
-    margin-left: -105px;
+    margin-left: -510px;
+  }
+
+  .website-links-joke {
+    margin-left: -520px;
   }
 
   .website-links-dictionary {
-    font-size: 4px;
-    padding: 4px 4px;
-    margin-left: -105px;
+    margin-left: -500px;
+  }
+}
+
+@media (max-width: 345px) {
+  .website-links-travel,
+  .website-links-light,
+  .website-links-weather,
+  .website-links-clock,
+  .website-links-quote,
+  .website-links-joke,
+  .website-links-ai,
+  .website-links-dictionary {
+    font-size: 12px;
+    padding: 9px 12px;
+    padding: 6px 10px;
   }
 }
