@@ -138,13 +138,13 @@ body {
 
 @media (max-width: 860px) {
   .hero h2 {
-    margin-top: 10px;
-    font-size: 90px;
+    font-size: 60px;
     margin-left: 75px;
+    margin-bottom: 70px;
   }
 
   .hero p {
-    font-size: 60px;
+    font-size: 40px;
     margin-left: 75px;
   }
 
